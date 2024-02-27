@@ -1,0 +1,336 @@
+/* body font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  z-index: 9999;
+}
+.navbar h1 {
+  color: blue;
+  cursor: pointer;
+}
+#nav-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.nav-li a {
+  font-size: 20px;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+.nav-li a:hover {
+  
+  color:blue;
+}
+
+#hamburger img{
+  height: 40px;
+  width: auto;
+}
+#hamburger{
+  display: none;
+}
+
+/* <!-- -----------------------------------first section css--------------------------------------- --> */
+
+.first-section {
+  height: 80vh;
+  width: 100%;
+  background: url(./images/f12.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  gap: 20px;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  color: white;
+  top: 220px;
+}
+.mini-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.mini-box img{
+  height: 30px;
+  width: auto;
+}
+.box1 {
+  height: 280px;
+  width: 240px;
+ background: url(./images/f16.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 15px;
+  margin: 10px;
+}
+
+.box2 {
+  height: 280px;
+  width: 240px;
+  background: url(./images/f14.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 15px;
+  margin: 10px;
+}
+
+.box3 {
+  height: 280px;
+  width: 240px;
+  background: url(./images/f17.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 15px;
+  margin: 10px;
+}
+
+.box4 {
+  height: 280px;
+  width: 240px;
+  background: url(./images/f15.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 15px;
+  margin: 10px;
+}
+
+
+/* <!-- -----------------------------------second section css--------------------------------------- --> */
+
+.second-section{
+  height: 60vh;
+  width: 100%;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.left{
+  height: 350px;
+  width: 430px;
+  /* background-color: aqua; */
+  padding: 90px 25px;
+}
+.left p{
+  margin-top: 25px;
+}
+.btn{
+  padding: 15px 30px;
+  margin-top: 15px;
+  border: none;
+  outline: none;
+  background: url(./images/f11.png);
+  color: white;
+  cursor: pointer;
+}
+.right{
+  height: 350px;
+  width: 430px;
+  /* background-color: aqua; */
+}
+.right img{
+  height: 100%;
+  width: 100%;
+}
+
+/* <!-- -----------------------------------forth section css--------------------------------------- --> */
+.forth-section{
+  height: 60vh;
+  width: 100%;
+  /* background-color:aquamarine ; */
+  background: url(./images/f6.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.forth-box{
+  height: 100%;
+  width: 500px;
+  background: url(./images/f7.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 40px;
+  padding: 60px 30px;
+  color: white;
+}
+.forth-box p{
+  margin-top: 25px;
+}
+.forth-btn{
+  padding: 15px 30px;
+  margin-top: 15px;
+  border: none;
+  outline: none;
+  
+  color: blue;
+  cursor: pointer;
+}
+
+/* <!-- -----------------------------------fifth section css--------------------------------------- --> */
+.fifth-section{
+  height: 60vh;
+  width: 100%;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.fifth-left{
+  height: 350px;
+  width: 430px;
+  /* background-color: aqua; */
+  padding: 50px 25px;
+  background: url(./images/f16.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.fifth-li{
+  list-style:circle;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.fifth-right{
+  height: 350px;
+  width: 430px;
+  /* background-color: aqua; */
+}
+.fifth-right img{
+  height: 100%;
+  width: 100%;
+}
+
+/* <!-- -----------------------------------sixth section css--------------------------------------- --> */
+
+.sixth-section{
+  height: 60vh;
+  width: 100%;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.sixth-box{
+  height: 400px;
+  width: 250px;
+  /* background-color: aqua; */
+  padding: 20px;
+}
+
+.sixth-box img{
+  height: 140px;
+  width: auto;
+  border-radius: 50%;
+  margin-left: 35px;
+}
+.sixth-box p{
+  margin-top: 20px;
+  text-align: left;
+  line-height: 25px;
+}
+.sixth-box h3{
+  margin-top: 15px;
+  color: orange;
+}
+
+
+/* <!-- -----------------------------------seventh section css--------------------------------------- --> */
+.seventh-section{
+  height: 60vh;
+  width: 100%;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.seventh-left{
+  height: 350px;
+  width: 430px;
+  /* background-color: aqua; */
+  padding: 50px 25px;
+  background: url(./images/f13.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.seventh-left img{
+  height: 30px;
+  width: auto;
+}
+
+.seventh-left p{
+  margin-top: 20px;
+}
+.mini-cont{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.icons{
+  margin-top: 20px;
+}
+.icons img{
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* <!-- -----------------------------------footer section css--------------------------------------- --> */
+.footer{
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

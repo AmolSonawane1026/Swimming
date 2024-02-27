@@ -1,0 +1,135 @@
+@media screen and (max-width:768px){
+  
+  #nav-ul {
+   /* display: none; */
+   height: 100vh;
+   width: 100%;
+   position: fixed;
+   top: 70px;
+   left: -100%;
+   background-color: white;
+   gap: 40px;
+   flex-direction: column;
+   transition: all 0.4s;
+
+  }
+  #nav-ul.active{
+    left: 0%;
+  }
+
+  #hamburger{
+    display: block;
+  }
+
+    .second-section{
+        height: 100%;
+        width: 100%;
+       margin-bottom: 25px;
+       margin-top: 25px;
+      }
+
+      .fifth-section{
+        margin-top: 25px;
+        height: 100%;
+        width: 100%;
+      }
+
+      .sixth-section{
+        height: 100%;
+        width: 100%;
+        margin-top: 25px;
+      }
+
+      .seventh-section{
+        height: 100%;
+        width: 100%;
+      }
+}
+
+@media screen and (max-width:425px){
+  .navbar h1{
+    font-size: 26px;
+  }
+  .hamburger img{
+    height: 27px;
+    width: auto;
+  }
+  .forth-box{
+    height: 100%;
+    width: 300px;
+    padding: 20px 10px;
+   
+  }
+  .forth-box h1{
+    font-size: 24px;
+  }
+  .forth-box p{
+    font-size: 13px;
+  }
+  .forth-btn{
+    padding: 8px 18px;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width:320px){
+  .navbar h1{
+    font-size: 23px;
+  }
+  .hamburger img{
+    height: 25px;
+    width: auto;
+  }
+  
+  .forth-section{
+    width: 100%;
+    height: 60vh;
+  }
+  .forth-box{
+    height: 100%;
+    width: 100%;
+    margin-left: 0px !important;
+  }
+  .forth-box h1{
+    font-size: 18px;
+  }
+  .forth-box p{
+    font-size: 10px;
+  }
+  .forth-btn{
+    padding: 10px 20px;
+    margin-top: 15px;
+   
+  }
+}
+
+@media screen and (max-width:565px){
+  .navbar h1{
+    font-size: 29px;
+  }
+  .hamburger img{
+    height: 28px;
+    width: auto;
+  }
+  .forth-box{
+    height: 100%;
+    width: 300px;
+    background: url(./images/f7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 40px;
+    padding: 20px 10px;
+    color: white;
+  }
+  .forth-box h1{
+    font-size: 24px;
+  }
+  .forth-box p{
+    font-size: 13px;
+  }
+  .forth-btn{
+    padding: 8px 18px;
+    margin-top: 15px;
+  }
+}
